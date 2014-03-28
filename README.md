@@ -15,7 +15,7 @@ The system consists of three components: the Producer, the Store, and the Subscr
 
 * The Subscriber connects a SUB socket to the Store's PUB socket on port `30001`, subscribes to all channels (subscribe to `""`), and then receives and prints messages from that socket.
 
-## Subscriber (DELAER/ROUTER)
+## Subscriber (DEALER/ROUTER)
 
 * The Subscriber connects a DEALER socket to the Store's ROUTER socket on port `30002`. 
 
