@@ -1,0 +1,11 @@
+C:\Test\Dealer\Dealer\bin\Debug\Dealer.exe.config
+C:\Test\Dealer\Dealer\bin\Debug\Dealer.exe
+C:\Test\Dealer\Dealer\bin\Debug\Dealer.pdb
+C:\Test\Dealer\Dealer\bin\Debug\clrzmq.dll
+C:\Test\Dealer\Dealer\bin\Debug\clrzmq.pdb
+C:\Test\Dealer\Dealer\bin\Debug\clrzmq.xml
+C:\Test\Dealer\Dealer\obj\Debug\Dealer.Form1.resources
+C:\Test\Dealer\Dealer\obj\Debug\Dealer.Properties.Resources.resources
+C:\Test\Dealer\Dealer\obj\Debug\Dealer.csproj.GenerateResource.Cache
+C:\Test\Dealer\Dealer\obj\Debug\Dealer.exe
+C:\Test\Dealer\Dealer\obj\Debug\Dealer.pdb

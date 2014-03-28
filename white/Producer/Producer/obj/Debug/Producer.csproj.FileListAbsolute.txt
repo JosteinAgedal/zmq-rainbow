@@ -1,0 +1,12 @@
+C:\Test\Producer\Producer\bin\Debug\Producer.exe.config
+C:\Test\Producer\Producer\bin\Debug\Producer.exe
+C:\Test\Producer\Producer\bin\Debug\Producer.pdb
+C:\Test\Producer\Producer\bin\Debug\clrzmq.dll
+C:\Test\Producer\Producer\bin\Debug\clrzmq.pdb
+C:\Test\Producer\Producer\bin\Debug\clrzmq.xml
+C:\Test\Producer\Producer\obj\Debug\Producer.csprojResolveAssemblyReference.cache
+C:\Test\Producer\Producer\obj\Debug\Producer.Form1.resources
+C:\Test\Producer\Producer\obj\Debug\Producer.Properties.Resources.resources
+C:\Test\Producer\Producer\obj\Debug\Producer.csproj.GenerateResource.Cache
+C:\Test\Producer\Producer\obj\Debug\Producer.exe
+C:\Test\Producer\Producer\obj\Debug\Producer.pdb

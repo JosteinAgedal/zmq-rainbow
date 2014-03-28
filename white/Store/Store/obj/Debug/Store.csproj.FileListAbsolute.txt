@@ -1,0 +1,12 @@
+C:\Test\Store\Store\bin\Debug\Store.exe.config
+C:\Test\Store\Store\bin\Debug\Store.exe
+C:\Test\Store\Store\bin\Debug\Store.pdb
+C:\Test\Store\Store\bin\Debug\clrzmq.dll
+C:\Test\Store\Store\bin\Debug\clrzmq.pdb
+C:\Test\Store\Store\bin\Debug\clrzmq.xml
+C:\Test\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+C:\Test\Store\Store\obj\Debug\Store.Form1.resources
+C:\Test\Store\Store\obj\Debug\Store.Properties.Resources.resources
+C:\Test\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+C:\Test\Store\Store\obj\Debug\Store.exe
+C:\Test\Store\Store\obj\Debug\Store.pdb
