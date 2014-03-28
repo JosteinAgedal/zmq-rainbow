@@ -49,9 +49,9 @@ The system consists of three components: the Producer, the Store, and the Subscr
 
 * The Store receives messages from the 'frontend' and sends them to the 'backend router' clients.
 
-* When a client connects to the 'backend router' socket the client will send a string containing the name of the channel it wishes to subscribe to messages from as the first message. 
+* The client specifies which messages to receive by sending a string containing the channel name.
 
-* If the first message is empty the client will recieve messages from all channels.
+* If the client sends an empty string the client will recieve messages from all channels.
 
 ## Message format
 
