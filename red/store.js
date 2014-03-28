@@ -1,15 +1,31 @@
 var zmq = require('zmq');
-var dsock = zmq.socket('dealer');
-var psock = zmq.socket('pub');
+var dealer = zmq.socket('dealer');
+var pub = zmq.socket('pub');
+var router = zmq.socket('router');
 
-dsock.bind('tcp://*:30000', function(err) {
+dealer.bind('tcp://*:30000', function(err) {
 	if (err) console.log(err);
 });
 
-psock.bind('tcp://*:30001', function(err) {
+pub.bind('tcp://*:30001', function(err) {
 	if (err) console.log(err);
 });
 
-dsock.on('message', function(msg) {
-	psock.send(msg);
+router.bind('tcp://*:30002', function(err) {
+	if (err) console.log(err);
+});
+
+var subscribers = {};
+
+router.on('message', function(id, msg) {
+	subscribers[id.toString('base64')] = msg;
+});
+
+dealer.on('message', function(msg) {
+	pub.send(msg);
+
+	Object.keys(subscribers).forEach(function(id) {
+		router.send(new Buffer(id, 'base64'), zmq.ZMQ_SNDMORE);
+		router.send(msg);
+	});
 });
